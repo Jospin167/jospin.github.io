@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Josan</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="j.png">
+    <link rel="shortcut icon" href="j.ico" type="image/x-icon">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: #007bff;
+            color: white;
+            padding: 2em;
+            text-align: center;
+        }
+
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid white;
+            margin-bottom: 1em;
+        }
+
+        nav {
+            background-color: #0056b3;
+            padding: 1em;
+            text-align: center;
+        }
+
+        .nav-links {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .nav-links li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        .nav-links a {
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: #ffd700;
+        }
+
+        section {
+            padding: 2em;
+            margin: 1em auto;
+            max-width: 800px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        section:hover {
+            transform: scale(1.01);
+        }
+
+        h2 {
+            color: #007bff;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin: 0.5em 0;
+        }
+
+        i {
+            margin-right: 8px;
+            color: #007bff;
+        }
+
+        a {
+            text-decoration: none;
+            color: #007bff;
+        }
+
+        .pin {
+            font-family: 'Dancing Script', cursive;
+            font-size: 2.5em;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            margin-top: 2em;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="jos.jpg" alt="Photo de Jospin" class="profile-img">
+        <h1>Hey, I'm Josan</h1>
+        <p class="pin"><i class='fas fa-laptop-code'></i> Développeur Django, Python & full-stack passionné</p>
+    </header>
+
+    <nav>
+        <ul class="nav-links">
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#skills">Compétences</a></li>
+            <li><a href="#projects">Projets</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>À propos</h2>
+        <p>Je suis un développeur full-stack spécialisé en Django et Python, avec un œil pour le design et l'expérience
+            utilisateur.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Compétences</h2>
+        <ul>
+            <li><i class="fas fa-code"></i> Django & Python</li>
+            <li><i class="fab fa-php"></i> PHP & MySQL</li>
+            <li><i class="fab fa-bootstrap"></i> Bootstrap & CSS</li>
+            <li><i class="fas fa-file-pdf"></i> PDF, Email, Paiement</li>
+            <li><i class='fas fa-dna'></i> DataMining</li>
+            <li><img src="hn.png" alt="Word Icon" style="width:20px; vertical-align:middle; margin-right:8px;">
+                Microsoft Office (Word, Excel, PowerPoint)</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Mes Projets</h2>
+        <ul>
+            <li><i class='fas fa-book-reader'></i> Quiz-Education</li>
+            <li><i class="fa fa-comments"></i> Messagerie</li>
+            <li><i class='fas fa-store-alt-slash'></i> NdikoShop</li>
+            <li><i class="fas fa-book"></i> BiblioChat</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p><i class="fas fa-envelope"></i> <a href="mailto:ndikumanajospin6@gmail.com">ndikumanajospin6@gmail.com</a>
+        </p>
+        <p><i class="fab fa-github"></i> <a href="https://github.com/Jospin167" target="_blank">github.com/Jospin167</a>
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Ndikumana Jospin. Tous droits réservés.</p>
+        <p>Contactez-nous :</p>
+        <p><img src="w.png" alt="WhatsApp" style="width:20px; vertical-align:middle; margin-right:8px;"> 65167332</p>
+        <p><a href="https://www.instagram.com/josan_nd167" target="_blank"><img src="insta.png" alt="Instagram"
+                    style="width:20px; vertical-align:middle; margin-right:8px;"> Instagram</a></p>
+        <p><a href="https://www.facebook.com/Nd'kmn Jospin" target="_blank"><img src="fb.png" alt="Facebook"
+                    style="width:20px; vertical-align:middle; margin-right:8px;"> Facebook</a></p>
+        <p><i class="fas fa-map-marker-alt"></i> Bujumbura Carama, Burundi</p>
+    </footer>
+</body>
+
+</html>
